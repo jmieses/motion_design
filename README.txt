@@ -1,13 +1,7 @@
-MEC 572
-Homework 6 Question 1
-Name: Johnny Mieses
-ID: 110685108	
 
-Updated were made to the provided skeleton code mainly in the main.cpp and Motion class. 
-Most of the functionality of the original program remain untouch. However, additional 
-functionalities perform the different motion design required in the homework. 
 
-The deCasteljau algorithm is used in the Motion file to return a DualQuaternion, which is
+
+The deCasteljau algorithm is used in the Motion file to return a DualQuaternion object, which is
 used in the pointMotion method to return a hPoint for drawing. This method is used in the 
 main by creating a Motion object and using the Motion m object from the original program. 
 In addition, a set of hPoint with the required points are initialized to take advantage of 
@@ -20,7 +14,7 @@ the GetDual() method is used to return the dual part of the dual quaternion as a
 object. Once the Quaternion object is obtained, it is used in the draw function to draw the 
 transformed points. 
 
-Last, the screw motion design did not work properly. Therefore its implementation is commented 
-out, so the program can run properly. 
+Last, different motion designs works properly (homogenous transformation, unit dual quaternion algebra), 
+except for the screw motion. Therefore its implementation is commented out, so the program can run properly. 
 
   
