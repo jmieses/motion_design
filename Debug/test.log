@@ -1,0 +1,63 @@
+﻿Build started 8/21/2018 3:58:38 PM.
+     1>Project "C:\Users\cesar\Desktop\Files\Classes\Spring 2018\MEC 572\hw\Johnny_Mieses_HW6_Q1\HW6 Skeleton code\test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I".\Glew and Glut\glui\include" /I".\Glew and Glut\freeglut\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D GLUT_BUILDING_LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt color.cpp dualNumber.cpp dualQuaternion.cpp hMatrix.cpp Interaction.cpp main.cpp motion.cpp OpenGLInitialization.cpp point2D.cpp Quaternion.cpp
+         Quaternion.cpp
+         point2D.cpp
+         OpenGLInitialization.cpp
+         motion.cpp
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\motion.cpp(254): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\motion.cpp(278): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\motion.cpp(279): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\motion.cpp(287): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\motion.cpp(288): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\motion.cpp(296): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\motion.cpp(297): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\motion.cpp(305): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\motion.cpp(306): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+         main.cpp
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\main.cpp(66): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\main.cpp(69): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\main.cpp(70): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\main.cpp(82): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\main.cpp(85): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\main.cpp(86): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+         Interaction.cpp
+         hMatrix.cpp
+         dualQuaternion.cpp
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\dualquaternion.cpp(194): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         dualNumber.cpp
+         color.cpp
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\color.cpp(21): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\color.cpp(22): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\color.cpp(23): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\color.cpp(24): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\color.cpp(25): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\color.cpp(26): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         Generating Code...
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\motion.cpp(184): warning C4715: 'Motion::pointMotion' : not all control paths return a value
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\motion.cpp(226): warning C4715: 'Motion::pointQuaternion' : not all control paths return a value
+     1>c:\users\cesar\desktop\files\classes\spring 2018\mec 572\hw\johnny_mieses_hw6_q1\hw6 skeleton code\motion.cpp(250): warning C4715: 'Motion::pointMotion' : not all control paths return a value
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I".\Glew and Glut\freeglut\include" /I".\Glew and Glut\glui\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D GLUT_BUILDING_LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt hPoint.cpp
+         hPoint.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cesar\Desktop\Files\Classes\Spring 2018\MEC 572\hw\Johnny_Mieses_HW6_Q1\HW6 Skeleton code\Debug\test.exe" /INCREMENTAL /NOLOGO /LIBPATH:".\Glew and Glut\glui\lib" /LIBPATH:".\Glew and Glut\freeglut\lib" odbc32.lib odbccp32.lib opengl32.lib glut32.lib glu32.lib glui32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\cesar\Desktop\Files\Classes\Spring 2018\MEC 572\hw\Johnny_Mieses_HW6_Q1\HW6 Skeleton code\Debug\test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cesar\Desktop\Files\Classes\Spring 2018\MEC 572\hw\Johnny_Mieses_HW6_Q1\HW6 Skeleton code\Debug\test.lib" /MACHINE:X86 /SAFESEH Debug\color.obj
+         Debug\dualNumber.obj
+         Debug\dualQuaternion.obj
+         Debug\hMatrix.obj
+         Debug\hPoint.obj
+         Debug\Interaction.obj
+         Debug\main.obj
+         Debug\motion.obj
+         Debug\OpenGLInitialization.obj
+         Debug\point2D.obj
+         Debug\Quaternion.obj
+         LINK : C:\Users\cesar\Desktop\Files\Classes\Spring 2018\MEC 572\hw\Johnny_Mieses_HW6_Q1\HW6 Skeleton code\Debug\test.exe not found or not built by the last incremental link; performing full link
+     1>color.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         test.vcxproj -> C:\Users\cesar\Desktop\Files\Classes\Spring 2018\MEC 572\hw\Johnny_Mieses_HW6_Q1\HW6 Skeleton code\Debug\test.exe
+     1>Done Building Project "C:\Users\cesar\Desktop\Files\Classes\Spring 2018\MEC 572\hw\Johnny_Mieses_HW6_Q1\HW6 Skeleton code\test.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.63
